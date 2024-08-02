@@ -1,5 +1,5 @@
 +++
-title = 'Mutating Proteint Sequence'
+title = 'Mutating Protein Sequence'
 date = 2024-08-02T16:20:16+09:00
 draft = true
 +++
