@@ -1,0 +1,5 @@
+{{ if (resources.GetMatch .Destination) }}
+  <img src="
+  {{ ((resources.GetMatch .Destination).Fit `60x60 jpg Smart q50`).RelPermalink | safeURL }}
+  " alt="{{ .Text }}" />
+{{ end }}

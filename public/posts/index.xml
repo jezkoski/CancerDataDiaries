@@ -14,11 +14,12 @@
     <lastBuildDate>Fri, 02 Aug 2024 16:20:16 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mutating Proteint Sequence</title>
-      <link>http://localhost:1313/posts/mutating-proteint-sequence/</link>
+      <title>Creating mutated protein sequences from a list of amino acid changes</title>
+      <link>http://localhost:1313/posts/mutating-protein-sequence/</link>
       <pubDate>Fri, 02 Aug 2024 16:20:16 +0900</pubDate>
-      <guid>http://localhost:1313/posts/mutating-proteint-sequence/</guid>
-      <description>Testing post 1declare a=1 2echo &amp;#34;$a&amp;#34; 3exit </description>
+      <guid>http://localhost:1313/posts/mutating-protein-sequence/</guid>
+      <description>In silico protein folding Recent improvements in protein folding tools such as AlphaFold2 have dramatically changed protein structure research. In silico predictions have been able to reach comparable accuracy to experimental techniques such as X-ray crystallography and cryo-electron microscopy. These tools may be useful to help filter protein structures for experimental studies.
+Missense mutations Missense mutations are single nucleotide changes in nucleotide sequence that lead to amino acid change in the protein sequence.</description>
     </item>
     <item>
       <title>Test Post</title>

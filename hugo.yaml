@@ -135,6 +135,12 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  #added to use render hooks!!!!!!!!!
+    renderHooks:
+      image:
+        enableDefault: true
+    parser:
+      wrapStandAloneImageWithinParagraph: false
   highlight:
     noClasses: false
     # anchorLineNos: true
