@@ -1,7 +1,7 @@
 +++
 title = 'Creating mutated protein sequences from a list of amino acid changes'
 date = 2024-08-02T16:20:16+09:00
-draft = true
+draft = false
 +++
 
 # *In silico* protein folding
