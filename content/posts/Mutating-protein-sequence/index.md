@@ -2,6 +2,7 @@
 title = 'Creating mutated protein sequences from a list of amino acid changes'
 date = 2024-08-02T16:20:16+09:00
 draft = false
+tags: [ensembl,proteins]
 +++
 
 # *In silico* protein folding
@@ -17,8 +18,8 @@ Missense mutations are single nucleotide changes in nucleotide sequence that lea
 protein sequence. All single nucleotide changes don't lead to amino acid change, but may result in synonymous mutation 
 (no amino acid change), early stop codon (translation terminates) or a splicing change if located at splicing site. 
 
-{{< figure src="nucleotide_changes.jpg" title="Single nucleotide changes" >}}
-
+{{< figure src="images/nucleotide_changes.png" title="Single nucleotide changes" >}}
+{{< figure src="sunset.jpg" title="Single nucleotide changes" >}}
 
 The effect of an amino acid change on protein structure and function is not always clear when only looking at the amino acid sequence. 
 Some changes occur at known active sites or post-translational modification sites which may strongly indicate a deleterious effect on the protein function.
@@ -32,7 +33,7 @@ Experimental protocols are expensive and time-consuming and hence there's a huge
 
 # Creating mutated sequences for *in silico* analysis
 
-I recently wanted to automate mutating protein FASTA sequences for AlphaFold2 protein folding and made a script for that.
+I recently wanted to automate mutating protein FASTA sequences for AlphaFold2 protein folding and made a python script for that.
 
 ### Set API connection
 

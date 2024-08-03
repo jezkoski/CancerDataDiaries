@@ -42,7 +42,7 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Cancer Data Diaries
-  description: "Testing site"
+  description: "Online notebook of PhD student in bioinformatics"
   author: Me
   # author: ["Me", "You"] # multiple authors
   keywords: [Blog, Portfolio, PaperMod]
@@ -83,7 +83,7 @@ params:
   homeInfoParams:
     Title: "Cancer Data Diaries"
     Content: >
-        Online notebook of an early career bioinformatician.
+        Online notebook of a PhD student in bioinformatics/genetics.
 
 
 
@@ -172,3 +172,8 @@ services:
     disableInlineCSS: true
   twitter:
     disableInlineCSS: true
+
+taxonomies:
+  tag: tags
+  series: series
+  category: categories

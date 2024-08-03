@@ -11,9 +11,6 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-08-02T16:20:16+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/test-post/</loc>
-    <lastmod>2024-08-02T15:58:49+09:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>

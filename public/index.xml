@@ -22,13 +22,6 @@
 Missense mutations Missense mutations are single nucleotide changes in nucleotide sequence that lead to amino acid change in the protein sequence.</description>
     </item>
     <item>
-      <title>Test Post</title>
-      <link>http://localhost:1313/posts/test-post/</link>
-      <pubDate>Fri, 02 Aug 2024 15:58:49 +0900</pubDate>
-      <guid>http://localhost:1313/posts/test-post/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

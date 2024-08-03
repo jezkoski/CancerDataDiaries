@@ -21,12 +21,5 @@
       <description>In silico protein folding Recent improvements in protein folding tools such as AlphaFold2 have dramatically changed protein structure research. In silico predictions have been able to reach comparable accuracy to experimental techniques such as X-ray crystallography and cryo-electron microscopy. These tools may be useful to help filter protein structures for experimental studies.
 Missense mutations Missense mutations are single nucleotide changes in nucleotide sequence that lead to amino acid change in the protein sequence.</description>
     </item>
-    <item>
-      <title>Test Post</title>
-      <link>http://localhost:1313/posts/test-post/</link>
-      <pubDate>Fri, 02 Aug 2024 15:58:49 +0900</pubDate>
-      <guid>http://localhost:1313/posts/test-post/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
