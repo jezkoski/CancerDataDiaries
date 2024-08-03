@@ -19,7 +19,6 @@ protein sequence. All single nucleotide changes don't lead to amino acid change,
 (no amino acid change), early stop codon (translation terminates) or a splicing change if located at splicing site. 
 
 {{< figure src="images/nucleotide_changes.png" title="Single nucleotide changes" >}}
-{{< figure src="sunset.jpg" title="Single nucleotide changes" >}}
 
 The effect of an amino acid change on protein structure and function is not always clear when only looking at the amino acid sequence. 
 Some changes occur at known active sites or post-translational modification sites which may strongly indicate a deleterious effect on the protein function.

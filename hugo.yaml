@@ -31,6 +31,9 @@ menu:
     - name: Tags
       url: tags/
       weight: 10
+    - name: Categories
+      url: categories/
+      weight: 10
 
 
 outputs:
@@ -79,6 +82,8 @@ params:
         url: archives
       - name: Tags
         url: tags
+      - name: Categories
+        url: categories
 
   homeInfoParams:
     Title: "Cancer Data Diaries"
