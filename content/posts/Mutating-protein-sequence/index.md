@@ -93,7 +93,7 @@ data = read_data(File)
 ```
 
 Ideally you have all your amino acid changes for the same protein transcript but that is not always the case when gathering mutations from literature. Some proteins may have differing amino acid transcripts; longer/shorter versions, or older/newer versions that have a bit differing mutation locations. 
-This script currently takes the default/most common protein sequence from Ensembl server based on Ensembl transcript ENST.
+This script currently takes the default/most common protein sequence from Ensembl server based on Ensembl transcript ENST and checks if the location and amino acid matches. If the mutation belongs to different protein transcript, it is skipped.
 
 ### Get protein FASTA sequence
 
@@ -173,5 +173,5 @@ Complete script can be found in github [](https://github.com/jezkoski/MutateProt
 
 [] Add GRCh38 version API
 
-[] Make an option to write sequences to a single OR separete FASTA files
+[] Make an option to write sequences to a single OR separate FASTA files
 
