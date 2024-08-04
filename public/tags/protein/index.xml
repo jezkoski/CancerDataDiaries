@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Protein on Cancer Data Diaries</title>
+    <link>http://localhost:1313/tags/protein/</link>
+    <description>Recent content in Protein on Cancer Data Diaries</description>
+    <image>
+      <title>Cancer Data Diaries</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.130.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Aug 2024 16:20:16 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/protein/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating mutated protein sequences from a list of amino acid changes</title>
+      <link>http://localhost:1313/posts/mutating-protein-sequence/</link>
+      <pubDate>Fri, 02 Aug 2024 16:20:16 +0900</pubDate>
+      <guid>http://localhost:1313/posts/mutating-protein-sequence/</guid>
+      <description>In silico protein folding Recent improvements in protein folding tools such as AlphaFold2 have dramatically changed protein structure research. In silico predictions have been able to reach comparable accuracy to experimental techniques such as X-ray crystallography and cryo-electron microscopy. These tools may be useful to help filter protein structures for experimental studies.
+Missense mutations Missense mutations are single nucleotide changes in nucleotide sequence that lead to amino acid change in the protein sequence.</description>
+    </item>
+  </channel>
+</rss>

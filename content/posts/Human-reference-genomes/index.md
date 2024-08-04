@@ -13,50 +13,37 @@ Reference genomes are used in genetic research as a reference map to help assemb
 
 ## What are the different versions?
 
+### Institutional differences
+
 There are number of reference genome assemblies available from different sources which are then named based on the institution.
 
+| Reference | Institute | Contig names | Resource | Notes |
+|   :---:   |   :---:   |     :----:   |   :---:  | :--:  |
+| GRCh37, GRCh38 | The Genome Reference Consortium (GRC) | chr prefix | ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_mammalian/Homo_sapiens/all_assembly_versions/GCF_000001405.25_GRCh37.p13/GCF_000001405.25_GRCh37.p13_genomic.fna.gz |  Constructed from sequenced bacterial artificial chromosomes (BACs) |
+|   hg19, hg38 | The University of California at Santa Cruz | chr prefix | http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/hg19.fa.gz | Based on GRCh reference but contains some alterations |
+| b37	    | Broad institute | no 'chr' prefix | https://console.cloud.google.com/storage/browser/_details/broad-references/hg19/v0/Homo_sapiens_assembly19.fasta | Based on GRCh. Alterations: bases with low confidence masked out. | 
+| human_g1k_v37 | The 1000 Genome project | No 'chr' prefix | http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz | Equivalent to b37, but without human herpesvirus 4 type 1 decoy sequence |
 
-UCSC -hg19, hg38
 
-The University of California at Santa Cruz
-
-Based on GRCh!, but contains some alterations: contig name changes
-
-http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/hg19.fa.gz
-
-Ensembl - GRCh
-
-The Genome Reference Consortium (GRC) Human Build 
-
-- Assembly constructed from sequenced bacterial artificial chromosomes (BACs)
 - limitations of BAC cloning
     
     → underrepresentation of repetitive sequences
     
     → several assembly gaps are unsolvable because of incompatible structural polymorphisms on their flanks
-    
-    [ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_mammalian/Homo_sapiens/all_assembly_versions/GCF_000001405.25_GRCh37.p13/GCF_000001405.25_GRCh37.p13_genomic.fna.gz](ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_mammalian/Homo_sapiens/all_assembly_versions/GCF_000001405.25_GRCh37.p13/GCF_000001405.25_GRCh37.p13_genomic.fna.gz)
-    
 
-Broad institute - b37
 
-Based on GRCh, the Genomics platform refers to this when they use hg19!
+Mostly the references contain the same data, although they use different naming for 
+contigs (hg19 and GRCh use ‘chr’ prefix whereas other two don’t).
 
-Alterations, changes for bases with low confidence, masked out
+However, there are some sequence differences between the references. 
+There are differences on chromosomes 3 and Y, and mitochondrial contig as can be seen 
+on the reference comparison table at broad institutes article.
 
-https://console.cloud.google.com/storage/browser/_details/broad-references/hg19/v0/Homo_sapiens_assembly19.fasta 
 
-100 Genome project v37/human_g1k_v37
+### Release 37 vs 38
 
-Equivalent to b37 except it doesn’t contain the decoy sequence of human herpesvirus 4 type 1. 
 
-http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz 
-
-Mostly the references contain the same data, although they use different naming for contigs (hg19 and GRCh use ‘chr’ prefix whereas other two don’t).
-
-However, there are some sequence differences between the references. There are differences on chromosomes 3 and Y, and mitochondrial contig as can be seen on the reference comparison table at broad institutes article.
-
-References:
+### References:
 
 https://www.science.org/doi/10.1126/science.abj6987
 
