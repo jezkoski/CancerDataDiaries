@@ -128,16 +128,20 @@ def mutate_pseq(changes, ENSP, seq):
 
 
     for c in changes['Protein_change']:
+	#unmutated sequence
         temp = seq 
+	#position of mutation eg. A265T -> 265
         k = int(c[5:-3])
-        #print(c[2:5], k, c[-3:])
 
+	#checking if mutation is a missense mutation
         if seq[k-1] == a_as[c[2:5]]:
             temp2 = temp[:k-1] + a_as[c[-3:]] + temp[k:]
             name_list.append(ENSP+"_"+c)
             seq_list.append(temp2)
             logging.info(f"Mutated protein sequence with change {c}.")
         else:
+	    #if not missense mutation
+	    #or mutation not on default protein sequence
             logging.info(f'Something wrong with {c}')
 
     return(name_list, seq_list)
@@ -149,9 +153,11 @@ nlist, slist = mutate_pseq(data, ENSP[1:-2], seq)
 
 Finally, write out the results as FASTA format to a single file:
 
-/>ENSP12344678_A345T
-
+**NOTE**
+ 
+>ENSP12344678_A345T
 ADGJRKAJGJRHJRJKDHEUIEJAHK
+
 
 ```python {class="my-class" id="my-codeblock3" lineNos=inline height="600"}
 def save_seqs(nlist, slist, outname):
@@ -165,7 +171,7 @@ def save_seqs(nlist, slist, outname):
 
 # Summary / future to do's
 
-Complete script can be found in github [](https://github.com/jezkoski/MutateProtein/tree/main).
+Complete script can be found in [github](https://github.com/jezkoski/MutateProtein/tree/main).
 
 
 **Future modifications to the script:**
