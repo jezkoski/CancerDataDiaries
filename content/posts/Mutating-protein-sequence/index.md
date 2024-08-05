@@ -155,7 +155,7 @@ Finally, write out the results as FASTA format to a single file:
 
 **NOTE**
  
->ENSP12344678_A345T
+\>ENSP12344678_A345T \n
 ADGJRKAJGJRHJRJKDHEUIEJAHK
 
 
