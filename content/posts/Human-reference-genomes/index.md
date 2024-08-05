@@ -1,7 +1,7 @@
 +++
 title = 'Human Reference Genomes: GRCh37, GRCh38, hg19, hg38, v37, b37?'
 date = 2024-08-03T15:30:11+09:00
-draft = true
+draft = false
 categories = ['genetics']
 tags = ['reference genome']
 +++
