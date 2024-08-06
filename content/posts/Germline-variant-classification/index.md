@@ -1,7 +1,7 @@
 +++
 title = 'ACMG-AMP classification for germline variant pathogenicity'
 date = 2024-08-03T15:29:55+09:00
-draft = true
+draft = false
 categories = ['bioinformatics']
 tags = ['ACMG', 'germline','variant interpretation']
 +++
