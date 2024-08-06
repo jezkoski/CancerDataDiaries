@@ -22,20 +22,21 @@ The guidelines provide a standardized and systematic framework for evaluating th
 
 For final variant interpretation the evidence for the variant in question is combined and variant will be assigned to one of the five pathogenicity classes: Pathogenic (P), Likely pathogenic (LP), Variant of uncertain significance (VUS), Likely benign (LB) or Benign (B) (Figure 1). 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ae32c0a1-ee63-4f46-a3de-ae4665a2776d/48837e58-6ff3-4530-bd6e-45699f57ea78/Untitled.png)
+{{< figure src="images/ACMGpipeline.jpg" title="Figure 1. ACMG classification system" >}}
 
 Evidence used for variant interpretation includes:
 
 - population control data (eg. gnomAD (Karczewski, et al., 2020))
-- **in silico** /computation predictions (such as pathogenicity prediction score AlphaMissense (Cheng et al., 2023))
+- *in silico* /computation predictions (such as pathogenicity prediction score AlphaMissense (Cheng et al., 2023))
 - Functional data (eg. Hotspot regions)
 - Clinical data/earlier findings (eg. ClinVar (Landrum et al., 2014))
 
-In addition, the variant may be evaluated based on segregation, **de novo**, and allelic data if such information is available. 
+In addition, the variant may be evaluated based on segregation, *de novo*, and allelic data if such information is available. 
 
 All the ACMG-AMP guideline evidence and their perceived strength can be seen from table 1. 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ae32c0a1-ee63-4f46-a3de-ae4665a2776d/c55069d4-10eb-4107-88f7-4672dc13ab6e/Untitled.png)
+{{ $image := resources.GetRemote "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fgim.2015.30/MediaObjects/41436_2015_Article_BFgim201530_Fig1_HTML.jpg?as=webp" }}
+
 
 [Richards et al.]
 
@@ -65,6 +66,6 @@ Landrum MJ, Lee JM, Riley GR, Jang W, Rubinstein WS, Church DM, Maglott DR. Clin
 
 Xavier A, Scott RJ, Talseth-Palmer BA. TAPES: A tool for assessment and prioritisation in exome studies. PLoS Comput Biol 15(10):e1007453 (2019). doi: 10.1371/journal.pcbi.1007453
 
-Nicora, G., Zucca, S., Limongelli, I. et al. A machine learning approach based on ACMG/AMP guidelines for genomic variant classification and prioritization. *Sci Rep* **12**, 2517 (2022). https://doi.org/10.1038/s41598-022-06547-3
+Nicora, G., Zucca, S., Limongelli, I. et al. A machine learning approach based on ACMG/AMP guidelines for genomic variant classification and prioritization. Sci Rep 12, 2517 (2022). https://doi.org/10.1038/s41598-022-06547-3
 
 Kim Y, Ki C, Jang M.  Challenges and Considerations in Sequence Variant Interpretation for Mendelian Disorders.  Ann Lab Med 39:421-429 (2019).  https://doi.org/10.3343/alm.2019.39.5.421
