@@ -153,7 +153,7 @@ nlist, slist = mutate_pseq(data, ENSP[1:-2], seq)
 
 Finally, write out the results as FASTA format to a single file:
 
-**NOTE**
+**Protein FASTA format:**
  
 \>ENSP12344678_A345T \
 ADGJRKAJGJRHJRJKDHEUIEJAHK
