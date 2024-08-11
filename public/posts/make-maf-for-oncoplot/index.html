@@ -210,24 +210,45 @@ Hugo_Symbol: Gene name (it&rsquo;s Hugo nomenclature name) Chromosome Start_Posi
     </nav>
 </header>
 <main class="main">
-<main>
-    <article>
-    <header>
-        <h1>Make Maf for Oncoplot</h1>
-    </header>
 
-        
-<div>
-    <h4>This article is part of a series.</h4>
-    <ul class="list-group">
-        
-    </ul>
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Make Maf for Oncoplot
+    </h1>
+    <div class="post-meta"><span title='2024-08-10 14:23:30 +0900 JST'>August 10, 2024</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Me&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/posts/Make-maf-for-oncoplot/index.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#maf-files" aria-label="MAF files">MAF files</a></li>
+                <li>
+                    <a href="#generating-maf-files" aria-label="Generating MAF files">Generating MAF files</a><ul>
+                        
+                <li>
+                    <a href="#vep-annotated-tabular-file-to-maf-file" aria-label="VEP annotated tabular file to MAF file">VEP annotated tabular file to MAF file</a></li>
+                <li>
+                    <a href="#modify-variant-annotations" aria-label="Modify variant annotations">Modify variant annotations</a></li>
+                <li>
+                    <a href="#be-careful-with-the-variant-nomenclature" aria-label="Be careful with the variant nomenclature">Be careful with the variant nomenclature</a></li></ul>
+                </li>
+                <li>
+                    <a href="#references" aria-label="References">References</a>
+                </li>
+            </ul>
+        </div>
+    </details>
 </div>
 
-
-
-        <p><a href="http://localhost:1313/series/bio-visualisation-tools/">Check all articles in this list</a>.</p>
-<h1 id="maf-files">MAF files</h1>
+  <div class="post-content"><p><a href="http://localhost:1313/series/bio-visualisation-tools/">Check all articles in this list</a>.</p>
+<h1 id="maf-files">MAF files<a hidden class="anchor" aria-hidden="true" href="#maf-files">#</a></h1>
 <p>Mutation Annotation Format (MAF) is a data format used to store mutation data.
 Some visualization tools such as Bioconductor&rsquo;s oncoplot, require the data
 to be in MAF format.</p>
@@ -248,14 +269,14 @@ Mandatory fields:</p>
 <ul>
 <li>non MAF specific fields containing VAF and amino acid change information</li>
 </ul>
-<h1 id="generating-maf-files">Generating MAF files</h1>
+<h1 id="generating-maf-files">Generating MAF files<a hidden class="anchor" aria-hidden="true" href="#generating-maf-files">#</a></h1>
 <p>When generating MAF files your starting point is usually a VCF file or a tabular file with or without annotations.
 Tool <a href="https://github.com/mskcc/vcf2maf">vcf2maf</a> will annotate, prioritize transcripts, and generates
 a MAF suitable for further use. The tool requires VEP to be installed in order for it to be able to do the annotations for mutations.</p>
 <p>Because I already had a VEP-annotated tabular file, I used python to generate
 MAF file and to change the values in Variant_Type and Variant_Classification columns
 to be maftools oncoplot compatible. More about bioconductor&rsquo;s maftools can be found <a href="https://bioconductor.org/packages/release/bioc/vignettes/maftools/inst/doc/maftools.html#2_Generating_MAF_files">here</a>.</p>
-<h2 id="vep-annotated-tabular-file-to-maf-file">VEP annotated tabular file to MAF file</h2>
+<h2 id="vep-annotated-tabular-file-to-maf-file">VEP annotated tabular file to MAF file<a hidden class="anchor" aria-hidden="true" href="#vep-annotated-tabular-file-to-maf-file">#</a></h2>
 <p>Taking the required fields from the VEP-annotated tabular file and renaming the column names into oncoplot suitable ones.</p>
 <div class="highlight my-class" id="my-codeblock" height="600"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="ln">1</span><span class="cl"><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 </span></span><span class="line"><span class="ln">2</span><span class="cl">
@@ -266,7 +287,7 @@ to be maftools oncoplot compatible. More about bioconductor&rsquo;s maftools can
 </span></span><span class="line"><span class="ln">7</span><span class="cl">	<span class="k">return</span> <span class="n">maf</span>
 </span></span><span class="line"><span class="ln">8</span><span class="cl">
 </span></span><span class="line"><span class="ln">9</span><span class="cl"><span class="n">maf</span> <span class="o">=</span> <span class="n">make_maf</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
-</span></span></code></pre></div><h2 id="modify-variant-annotations">Modify variant annotations</h2>
+</span></span></code></pre></div><h2 id="modify-variant-annotations">Modify variant annotations<a hidden class="anchor" aria-hidden="true" href="#modify-variant-annotations">#</a></h2>
 <p>In addition to VEP, there&rsquo;s another popular variant annotation tool ANNOVAR. They use a bit
 different nomenclature on the variant consequence and variant type fields.
 Maftools oncoplot uses the ANNOVAR type of annotations and hence in R, I change the
@@ -294,7 +315,7 @@ ANNOVAR nomenclature.</p>
 </span></span><span class="line"><span class="ln">20</span><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="ln">21</span><span class="cl">
 </span></span><span class="line"><span class="ln">22</span><span class="cl"><span class="n">data</span> <span class="o">&lt;-</span> <span class="nf">change_values</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
-</span></span></code></pre></div><h2 id="be-careful-with-the-variant-nomenclature">Be careful with the variant nomenclature</h2>
+</span></span></code></pre></div><h2 id="be-careful-with-the-variant-nomenclature">Be careful with the variant nomenclature<a hidden class="anchor" aria-hidden="true" href="#be-careful-with-the-variant-nomenclature">#</a></h2>
 <p>Each tool, VEP, ANNOVAR, and other annotation tools use different systems for variant nomenclature
 and they may vary. ANNOVAR annotations are more general compared to VEP. For example,
 in ANNOVAR, splice-site variants are annotated as &lsquo;Splice_Site&rsquo;, whereas in VEP they are
@@ -302,24 +323,34 @@ annotated as &lsquo;splice_acceptor_variant&rsquo; or &lsquo;splice_donor_varian
 In addition, variants in multiple transcripts are dealt with differently. Some tools list
 each different annotation the variant gets in the different transcripts whereas for example,
 ANNOVAR outputs only the most deleterious variant based on their priorisation system.</p>
-<h1 id="references">References</h1>
+<h1 id="references">References<a hidden class="anchor" aria-hidden="true" href="#references">#</a></h1>
 <p>VEP: <a href="https://asia.ensembl.org/info/docs/tools/vep/index.html">https://asia.ensembl.org/info/docs/tools/vep/index.html</a>
 ANNOVAR: <a href="https://annovar.openbioinformatics.org/en/latest/">https://annovar.openbioinformatics.org/en/latest/</a></p>
 
 
-        
-<div>
-    <h4>This article is part of a series.</h4>
-    <ul class="list-group">
-        
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/oncoplot/">Oncoplot</a></li>
+      <li><a href="http://localhost:1313/tags/maftools/">Maftools</a></li>
+      <li><a href="http://localhost:1313/tags/variant-annotation/">Variant Annotation</a></li>
     </ul>
-</div>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/oncoplot/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Oncoplot</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/lollipop-plots/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Lollipop Plots</span>
+  </a>
+</nav>
 
-
-
-    </article>
-</main>
-
+  </footer>
+</article>
     </main>
     
 <footer class="footer">
