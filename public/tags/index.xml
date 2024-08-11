@@ -11,13 +11,55 @@
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Aug 2024 15:30:11 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 11 Aug 2024 13:43:50 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maftools</title>
+      <link>http://localhost:1313/tags/maftools/</link>
+      <pubDate>Sun, 11 Aug 2024 13:43:50 +0900</pubDate>
+      <guid>http://localhost:1313/tags/maftools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oncoplot</title>
+      <link>http://localhost:1313/tags/oncoplot/</link>
+      <pubDate>Sun, 11 Aug 2024 13:43:50 +0900</pubDate>
+      <guid>http://localhost:1313/tags/oncoplot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Variant Annotation</title>
+      <link>http://localhost:1313/tags/variant-annotation/</link>
+      <pubDate>Sat, 10 Aug 2024 14:23:30 +0900</pubDate>
+      <guid>http://localhost:1313/tags/variant-annotation/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Reference Genome</title>
       <link>http://localhost:1313/tags/reference-genome/</link>
       <pubDate>Sat, 03 Aug 2024 15:30:11 +0900</pubDate>
       <guid>http://localhost:1313/tags/reference-genome/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ACMG</title>
+      <link>http://localhost:1313/tags/acmg/</link>
+      <pubDate>Sat, 03 Aug 2024 15:29:55 +0900</pubDate>
+      <guid>http://localhost:1313/tags/acmg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Germline</title>
+      <link>http://localhost:1313/tags/germline/</link>
+      <pubDate>Sat, 03 Aug 2024 15:29:55 +0900</pubDate>
+      <guid>http://localhost:1313/tags/germline/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Variant Interpretation</title>
+      <link>http://localhost:1313/tags/variant-interpretation/</link>
+      <pubDate>Sat, 03 Aug 2024 15:29:55 +0900</pubDate>
+      <guid>http://localhost:1313/tags/variant-interpretation/</guid>
       <description></description>
     </item>
     <item>

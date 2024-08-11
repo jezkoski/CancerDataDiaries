@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bio Visualisation Tools on Cancer Data Diaries</title>
+    <link>http://localhost:1313/series/bio-visualisation-tools/</link>
+    <description>Recent content in Bio Visualisation Tools on Cancer Data Diaries</description>
+    <image>
+      <title>Cancer Data Diaries</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.131.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Aug 2024 13:43:50 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/series/bio-visualisation-tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oncoplot</title>
+      <link>http://localhost:1313/posts/oncoplot/</link>
+      <pubDate>Sun, 11 Aug 2024 13:43:50 +0900</pubDate>
+      <guid>http://localhost:1313/posts/oncoplot/</guid>
+      <description>Introduction What Oncoplots are types of plots that help to visualise genetic mutations across different genes and patients. Commonly the genes carrying mutations/variants are the rows and the individuals carrying mutations are the columns.
+[figure of example oncoplot]
+Oncoplots are often presented with additional info such as clinical parameters that can be added under, top, or to the sides of the oncoplot.
+Why
+Allows to simultaneously view the most mutated genes in the whole individual set/population Allows to view individuals with co-occuring mutations How There are several tools for creating oncoplots and currently the most popular one is Bioconductor&amp;rsquo;s maftools oncoplot.</description>
+    </item>
+    <item>
+      <title>Make Maf for Oncoplot</title>
+      <link>http://localhost:1313/posts/make-maf-for-oncoplot/</link>
+      <pubDate>Sat, 10 Aug 2024 14:23:30 +0900</pubDate>
+      <guid>http://localhost:1313/posts/make-maf-for-oncoplot/</guid>
+      <description>Check all articles in this list.
+MAF files Mutation Annotation Format (MAF) is a data format used to store mutation data. Some visualization tools such as Bioconductor&amp;rsquo;s oncoplot, require the data to be in MAF format.
+MAF files have mandatory and optional fields. Mandatory fields:
+Hugo_Symbol: Gene name (it&amp;rsquo;s Hugo nomenclature name) Chromosome Start_Position End_Position Reference_allele Tumor_Seq_Allele2: alternative allele Variant_Classification: variant consequence eg. missense, stop, splice Variant_Type: single nucleotide variant, insertion, deletion Tumor_Sample_Barcode:	Tumor/Patient/Sample name or number Optional fields:</description>
+    </item>
+  </channel>
+</rss>

@@ -2,14 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-08-03T15:38:54+09:00</lastmod>
+    <loc>http://localhost:1313/series/bio-visualisation-tools/</loc>
+    <lastmod>2024-08-11T13:43:50+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-08-03T15:38:54+09:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-08-11T13:43:50+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-08-03T15:30:11+09:00</lastmod>
+    <lastmod>2024-08-11T13:43:50+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/maftools/</loc>
+    <lastmod>2024-08-11T13:43:50+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/oncoplot/</loc>
+    <lastmod>2024-08-11T13:43:50+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/oncoplot/</loc>
+    <lastmod>2024-08-11T13:43:50+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-08-11T13:43:50+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/</loc>
+    <lastmod>2024-08-11T13:43:50+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-08-11T13:43:50+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/tutorial/</loc>
+    <lastmod>2024-08-11T13:43:50+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/bioinformatics/</loc>
+    <lastmod>2024-08-10T14:23:30+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/make-maf-for-oncoplot/</loc>
+    <lastmod>2024-08-10T14:23:30+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/variant-annotation/</loc>
+    <lastmod>2024-08-10T14:23:30+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/genetics/</loc>
     <lastmod>2024-08-03T15:30:11+09:00</lastmod>
@@ -20,11 +50,17 @@
     <loc>http://localhost:1313/tags/reference-genome/</loc>
     <lastmod>2024-08-03T15:30:11+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-08-03T15:30:11+09:00</lastmod>
+    <loc>http://localhost:1313/tags/acmg/</loc>
+    <lastmod>2024-08-03T15:29:55+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/bioinformatics/</loc>
-    <lastmod>2024-08-02T16:20:16+09:00</lastmod>
+    <loc>http://localhost:1313/posts/germline-variant-classification/</loc>
+    <lastmod>2024-08-03T15:29:55+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/germline/</loc>
+    <lastmod>2024-08-03T15:29:55+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/variant-interpretation/</loc>
+    <lastmod>2024-08-03T15:29:55+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/mutating-protein-sequence/</loc>
     <lastmod>2024-08-02T16:20:16+09:00</lastmod>
@@ -42,7 +78,5 @@
     <loc>http://localhost:1313/pages/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/series/</loc>
   </url>
 </urlset>

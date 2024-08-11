@@ -11,8 +11,25 @@
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Aug 2024 16:20:16 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 10 Aug 2024 14:23:30 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Make Maf for Oncoplot</title>
+      <link>http://localhost:1313/posts/make-maf-for-oncoplot/</link>
+      <pubDate>Sat, 10 Aug 2024 14:23:30 +0900</pubDate>
+      <guid>http://localhost:1313/posts/make-maf-for-oncoplot/</guid>
+      <description>Check all articles in this list.
+MAF files Mutation Annotation Format (MAF) is a data format used to store mutation data. Some visualization tools such as Bioconductor&amp;rsquo;s oncoplot, require the data to be in MAF format.
+MAF files have mandatory and optional fields. Mandatory fields:
+Hugo_Symbol: Gene name (it&amp;rsquo;s Hugo nomenclature name) Chromosome Start_Position End_Position Reference_allele Tumor_Seq_Allele2: alternative allele Variant_Classification: variant consequence eg. missense, stop, splice Variant_Type: single nucleotide variant, insertion, deletion Tumor_Sample_Barcode:	Tumor/Patient/Sample name or number Optional fields:</description>
+    </item>
+    <item>
+      <title>ACMG-AMP classification for germline variant pathogenicity</title>
+      <link>http://localhost:1313/posts/germline-variant-classification/</link>
+      <pubDate>Sat, 03 Aug 2024 15:29:55 +0900</pubDate>
+      <guid>http://localhost:1313/posts/germline-variant-classification/</guid>
+      <description>Germline variant effect interpretation is challenging Assessing the clinical significance of germline variants is an important task in genetics. Identification of pathogenic germline variants may affect the diagnosis and treatment decisions and hence potentially improve and personalize the patient care. In addition, the identification of such heritable risk is important for the family of the patients as they now may be provided genetic counseling and cancer surveillance if they are found to be carriers of the same variant.</description>
+    </item>
     <item>
       <title>Creating mutated protein sequences from a list of amino acid changes</title>
       <link>http://localhost:1313/posts/mutating-protein-sequence/</link>

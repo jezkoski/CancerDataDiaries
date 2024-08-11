@@ -3,8 +3,12 @@ title = 'Make Maf for Oncoplot'
 date = 2024-08-10T14:23:30+09:00
 draft = false
 categories = ['bioinformatics']
+series = ['Bio Visualisation tools']
 tags = ['oncoplot','maftools','variant annotation']
 +++
+
+[Check all articles in this list]({{< ref "/series/Bio Visualisation tools">}}).
+
 
 # MAF files
 

@@ -11,14 +11,42 @@
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Aug 2024 15:30:11 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 11 Aug 2024 13:43:50 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oncoplot</title>
+      <link>http://localhost:1313/posts/oncoplot/</link>
+      <pubDate>Sun, 11 Aug 2024 13:43:50 +0900</pubDate>
+      <guid>http://localhost:1313/posts/oncoplot/</guid>
+      <description>Introduction What Oncoplots are types of plots that help to visualise genetic mutations across different genes and patients. Commonly the genes carrying mutations/variants are the rows and the individuals carrying mutations are the columns.
+[figure of example oncoplot]
+Oncoplots are often presented with additional info such as clinical parameters that can be added under, top, or to the sides of the oncoplot.
+Why
+Allows to simultaneously view the most mutated genes in the whole individual set/population Allows to view individuals with co-occuring mutations How There are several tools for creating oncoplots and currently the most popular one is Bioconductor&amp;rsquo;s maftools oncoplot.</description>
+    </item>
+    <item>
+      <title>Make Maf for Oncoplot</title>
+      <link>http://localhost:1313/posts/make-maf-for-oncoplot/</link>
+      <pubDate>Sat, 10 Aug 2024 14:23:30 +0900</pubDate>
+      <guid>http://localhost:1313/posts/make-maf-for-oncoplot/</guid>
+      <description>Check all articles in this list.
+MAF files Mutation Annotation Format (MAF) is a data format used to store mutation data. Some visualization tools such as Bioconductor&amp;rsquo;s oncoplot, require the data to be in MAF format.
+MAF files have mandatory and optional fields. Mandatory fields:
+Hugo_Symbol: Gene name (it&amp;rsquo;s Hugo nomenclature name) Chromosome Start_Position End_Position Reference_allele Tumor_Seq_Allele2: alternative allele Variant_Classification: variant consequence eg. missense, stop, splice Variant_Type: single nucleotide variant, insertion, deletion Tumor_Sample_Barcode:	Tumor/Patient/Sample name or number Optional fields:</description>
+    </item>
     <item>
       <title>Human Reference Genomes: GRCh37, GRCh38, hg19, hg38, v37, b37?</title>
       <link>http://localhost:1313/posts/human-reference-genomes/</link>
       <pubDate>Sat, 03 Aug 2024 15:30:11 +0900</pubDate>
       <guid>http://localhost:1313/posts/human-reference-genomes/</guid>
       <description>What is a reference genome? A human reference genome, reference assembly, is a sequence of nucleotides representing genes and non-coding regions of the genome. It is made up from a combination multiple individual&amp;rsquo;s DNA and hence not representing a genome of any single human but an average of all humans in the world. However, it is difficult to get proper representation of all humans due to the bias in the selection of participants for the genome sequencing and the great variantion in some parts of the genome between populations.</description>
+    </item>
+    <item>
+      <title>ACMG-AMP classification for germline variant pathogenicity</title>
+      <link>http://localhost:1313/posts/germline-variant-classification/</link>
+      <pubDate>Sat, 03 Aug 2024 15:29:55 +0900</pubDate>
+      <guid>http://localhost:1313/posts/germline-variant-classification/</guid>
+      <description>Germline variant effect interpretation is challenging Assessing the clinical significance of germline variants is an important task in genetics. Identification of pathogenic germline variants may affect the diagnosis and treatment decisions and hence potentially improve and personalize the patient care. In addition, the identification of such heritable risk is important for the family of the patients as they now may be provided genetic counseling and cancer surveillance if they are found to be carriers of the same variant.</description>
     </item>
     <item>
       <title>Creating mutated protein sequences from a list of amino acid changes</title>
@@ -33,7 +61,8 @@ Missense mutations Missense mutations are single nucleotide changes in nucleotid
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description></description>
+      <description>I&amp;rsquo;m a PhD student in bioinformatics/genetics focusing on germline predisposition in hematological cancers and diseases.
+I&amp;rsquo;m mainly using python and bash for my coding tasks and occassionally R. In my projects I&amp;rsquo;m working on whole exome and genome sequencing data (somatic + germline), single cell RNAseq + ATACseq, and currently learning about metabolomics (UPLC-MS/MS) and proteomics (Olink) data. Lately, I&amp;rsquo;m heavily leaning on the single cell data side and highly interested in the interpretation and integration of multi-omics data.</description>
     </item>
   </channel>
 </rss>

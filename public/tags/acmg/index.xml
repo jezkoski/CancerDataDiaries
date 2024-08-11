@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ACMG on Cancer Data Diaries</title>
+    <link>http://localhost:1313/tags/acmg/</link>
+    <description>Recent content in ACMG on Cancer Data Diaries</description>
+    <image>
+      <title>Cancer Data Diaries</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.131.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Aug 2024 15:29:55 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/acmg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ACMG-AMP classification for germline variant pathogenicity</title>
+      <link>http://localhost:1313/posts/germline-variant-classification/</link>
+      <pubDate>Sat, 03 Aug 2024 15:29:55 +0900</pubDate>
+      <guid>http://localhost:1313/posts/germline-variant-classification/</guid>
+      <description>Germline variant effect interpretation is challenging Assessing the clinical significance of germline variants is an important task in genetics. Identification of pathogenic germline variants may affect the diagnosis and treatment decisions and hence potentially improve and personalize the patient care. In addition, the identification of such heritable risk is important for the family of the patients as they now may be provided genetic counseling and cancer surveillance if they are found to be carriers of the same variant.</description>
+    </item>
+  </channel>
+</rss>
