@@ -35,9 +35,9 @@ In addition, the variant may be evaluated based on segregation, *de novo*, and a
 
 All the ACMG-AMP guideline evidence and their perceived strength can be seen from table 1. 
 
-{{ $image := resources.GetRemote "https://www.google.com/imgres?q=richards%20et%20al%20acmg&imgurl=https%3A%2F%2Fmedia.springernature.com%2Fm685%2Fspringer-static%2Fimage%2Fart%253A10.1038%252Fgim.2015.30%2FMediaObjects%2F41436_2015_Article_BFgim201530_Fig1_HTML.jpg&imgrefurl=https%3A%2F%2Fwww.nature.com%2Farticles%2Fgim201530&docid=8KrDYtyusw9daM&tbnid=4fM2cumtqWKWTM&vet=12ahUKEwjI8-22n9-HAxV9cPUHHeSSBMMQM3oECBoQAA..i&w=685&h=557&hcb=2&ved=2ahUKEwjI8-22n9-HAxV9cPUHHeSSBMMQM3oECBoQAA" }}
 
-[Richards et al.]
+{{< figure src="acmgrules.jpg" title="Table 1. Richards et al., ACMG classification rules" >}}
+
 
 ## Implementing the ACMG-AMP guidelines
 
