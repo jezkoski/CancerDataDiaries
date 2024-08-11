@@ -41,7 +41,7 @@ to be maftools oncoplot compatible. More about bioconductor's maftools can be fo
 
 Taking the required fields from the VEP-annotated tabular file and renaming the column names into oncoplot suitable ones.
 
-```{python}
+```python {class="my-class" id="my-codeblock" lineNos=inline height="600"}
 import pandas as pd
 
 def make_maf(data):
@@ -61,7 +61,7 @@ Maftools oncoplot uses the ANNOVAR type of annotations and hence in R, I change 
 Variant_Type and Variant_Classification values from VEP nomenclature to
 ANNOVAR nomenclature.
 
-```{R}
+```R {class="my-class" id="my-codeblock" lineNos=inline height="600"}
 library(dplyr)
 
 data <- read.table('variants.maf', sep='\t', header=TRUE)
