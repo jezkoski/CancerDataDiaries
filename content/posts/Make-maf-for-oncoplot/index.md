@@ -3,7 +3,7 @@ title = 'Make Maf for Oncoplot'
 date = 2024-08-10T14:23:30+09:00
 draft = false
 categories = ['bioinformatics']
-tags = ['oncoplot','maftools', 'variant annotation']
+tags = ['oncoplot','maftools','variant annotation']
 +++
 
 # MAF files
