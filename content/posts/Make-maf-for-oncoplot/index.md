@@ -38,7 +38,7 @@ Tool [vcf2maf](https://github.com/mskcc/vcf2maf) will annotate, prioritize trans
 a MAF suitable for further use. The tool requires VEP to be installed in order for it to be able to do the annotations for mutations. 
 
 Because I already had a VEP-annotated tabular file, I used python to generate
-MAF file and to change the values in Variant_Type and Variant_Classification columns
+MAF file and R to change the values in Variant_Type and Variant_Classification columns
 to be maftools oncoplot compatible. More about bioconductor's maftools can be found [here](https://bioconductor.org/packages/release/bioc/vignettes/maftools/inst/doc/maftools.html#2_Generating_MAF_files).
 
 ## VEP annotated tabular file to MAF file
