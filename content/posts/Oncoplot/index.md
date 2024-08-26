@@ -16,7 +16,7 @@ This allows for easier identification of recurrent and co-occuring mutations.
 Each column in the oncoplot represent a sample or individual, and each row corresponds to a gene.
 Mutation types are represented with different colors and symbols may be added to indicate extra information on the mutation.
 
-{{< figure src="oncoplot_example.jpg" title="Basic oncoplot" >}}
+{{< figure src="oncoplot.jpg" title="Basic oncoplot" >}}
 
 Oncoplots are often presented with additional information such as clinical 
 parameters that can be added under, top, or to the sides of the oncoplot.
