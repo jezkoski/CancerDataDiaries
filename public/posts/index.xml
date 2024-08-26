@@ -9,7 +9,7 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.131.0</generator>
+    <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 11 Aug 2024 13:43:50 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -18,11 +18,9 @@
       <link>http://localhost:1313/posts/oncoplot/</link>
       <pubDate>Sun, 11 Aug 2024 13:43:50 +0900</pubDate>
       <guid>http://localhost:1313/posts/oncoplot/</guid>
-      <description>Introduction What Oncoplots are types of plots that help to visualise genetic mutations across different genes and patients. Commonly the genes carrying mutations/variants are the rows and the individuals carrying mutations are the columns.
+      <description>Introduction Oncoplots are types of plots that help to visualise genetic mutations across different genes and patients. The plot allows to simultaneously view the most mutated genes as well as co-occuring mutations in the individuals. Commonly the genes carrying mutations/variants are the rows and the individuals carrying mutations are the columns.
 [figure of example oncoplot]
-Oncoplots are often presented with additional info such as clinical parameters that can be added under, top, or to the sides of the oncoplot.
-Why
-Allows to simultaneously view the most mutated genes in the whole individual set/population Allows to view individuals with co-occuring mutations How There are several tools for creating oncoplots and currently the most popular one is Bioconductor&amp;rsquo;s maftools oncoplot.</description>
+Oncoplots are often presented with additional info such as clinical parameters that can be added under, top, or to the sides of the oncoplot.</description>
     </item>
     <item>
       <title>Make Maf for Oncoplot</title>
