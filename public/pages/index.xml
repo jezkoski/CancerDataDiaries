@@ -9,7 +9,7 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.133.0</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -17,8 +17,13 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>I&amp;rsquo;m a PhD student in bioinformatics/genetics focusing on germline predisposition in hematological cancers and diseases.
-I&amp;rsquo;m mainly using python and bash for my coding tasks and occassionally R. In my projects I&amp;rsquo;m working on whole exome and genome sequencing data (somatic + germline), single cell RNAseq + ATACseq, and currently learning about metabolomics (UPLC-MS/MS) and proteomics (Olink) data. Lately, I&amp;rsquo;m heavily leaning on the single cell data side and highly interested in the interpretation and integration of multi-omics data.</description>
+      <description>&lt;p&gt;I&amp;rsquo;m a PhD student in bioinformatics/genetics focusing on germline predisposition
+in hematological cancers and diseases.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m mainly using python and bash for my coding tasks and occassionally R. In my projects I&amp;rsquo;m working on
+whole exome and genome sequencing data (somatic + germline), single cell RNAseq + ATACseq,
+and currently learning about metabolomics (UPLC-MS/MS) and proteomics (Olink) data. Lately, I&amp;rsquo;m heavily
+leaning on the single cell data side and highly interested in the interpretation and integration of
+multi-omics data.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

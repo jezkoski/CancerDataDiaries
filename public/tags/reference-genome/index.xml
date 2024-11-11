@@ -9,7 +9,7 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.133.0</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Aug 2024 15:30:11 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/reference-genome/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,16 @@
       <link>http://localhost:1313/posts/human-reference-genomes/</link>
       <pubDate>Sat, 03 Aug 2024 15:30:11 +0900</pubDate>
       <guid>http://localhost:1313/posts/human-reference-genomes/</guid>
-      <description>What is a reference genome? A human reference genome, reference assembly, is a sequence of nucleotides representing genes and non-coding regions of the genome. It is made up from a combination multiple individual&amp;rsquo;s DNA and hence not representing a genome of any single human but an average of all humans in the world. However, it is difficult to get proper representation of all humans due to the bias in the selection of participants for the genome sequencing and the great variantion in some parts of the genome between populations.</description>
+      <description>&lt;h2 id=&#34;what-is-a-reference-genome&#34;&gt;What is a reference genome?&lt;/h2&gt;
+&lt;p&gt;A human reference genome, reference assembly, is a sequence of nucleotides representing genes
+and non-coding regions of the genome.
+It is made up from a combination multiple individual&amp;rsquo;s DNA and hence not representing a
+genome of any single human but an average of all humans in the world. However,
+it is difficult to get proper representation of all humans due to the bias in the
+selection of participants for the genome sequencing and the great variantion in some parts
+of the genome between populations.
+The first version was released in 2000 and there have been
+multiple improvements and versions after that.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

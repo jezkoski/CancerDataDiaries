@@ -9,27 +9,46 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.133.0</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Aug 2024 13:43:50 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 26 Aug 2024 13:43:50 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/oncoplot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Oncoplot</title>
       <link>http://localhost:1313/posts/oncoplot/</link>
-      <pubDate>Sun, 11 Aug 2024 13:43:50 +0900</pubDate>
+      <pubDate>Mon, 26 Aug 2024 13:43:50 +0900</pubDate>
       <guid>http://localhost:1313/posts/oncoplot/</guid>
-      <description>Introduction Oncoplots are are visualisation tool used in genomics to present genetic mutations in a set of study samples. They provide an overview of the mutation/variant types and frequencies across all the samples. This allows for easier identification of recurrent and co-occuring mutations.
-Each column in the oncoplot represent a sample or individual, and each row corresponds to a gene. Mutation types are represented with different colors and symbols may be added to indicate extra information on the mutation.</description>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Oncoplots are are visualisation tool used in genomics to present genetic mutations in a set of study samples.
+They provide an overview of the mutation/variant types and frequencies across all the samples.
+This allows for easier identification of recurrent and co-occuring mutations.&lt;/p&gt;
+&lt;p&gt;Each column in the oncoplot represent a sample or individual, and each row corresponds to a gene.
+Mutation types are represented with different colors and symbols may be added to indicate extra information on the mutation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Make Maf for Oncoplot</title>
       <link>http://localhost:1313/posts/make-maf-for-oncoplot/</link>
       <pubDate>Sat, 10 Aug 2024 14:23:30 +0900</pubDate>
       <guid>http://localhost:1313/posts/make-maf-for-oncoplot/</guid>
-      <description>Check all articles in this list.
-MAF files Mutation Annotation Format (MAF) is a data format used to store mutation data. Some visualization tools such as Bioconductor&amp;rsquo;s oncoplot, require the data to be in MAF format.
-MAF files have mandatory and optional fields. Mandatory fields:
-Hugo_Symbol: Gene name (it&amp;rsquo;s Hugo nomenclature name) Chromosome Start_Position End_Position Reference_allele Tumor_Seq_Allele2: alternative allele Variant_Classification: variant consequence eg. missense, stop, splice Variant_Type: single nucleotide variant, insertion, deletion Tumor_Sample_Barcode:	Tumor/Patient/Sample name or number Optional fields:</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/series/bio-visualisation-tools/&#34;&gt;Check all articles in this list&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;maf-files&#34;&gt;MAF files&lt;/h1&gt;
+&lt;p&gt;Mutation Annotation Format (MAF) is a data format used to store mutation data.
+Some visualization tools such as Bioconductor&amp;rsquo;s oncoplot, require the data
+to be in MAF format.&lt;/p&gt;
+&lt;p&gt;MAF files have mandatory and optional fields.
+Mandatory fields:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugo_Symbol: Gene name (it&amp;rsquo;s Hugo nomenclature name)&lt;/li&gt;
+&lt;li&gt;Chromosome&lt;/li&gt;
+&lt;li&gt;Start_Position&lt;/li&gt;
+&lt;li&gt;End_Position&lt;/li&gt;
+&lt;li&gt;Reference_allele&lt;/li&gt;
+&lt;li&gt;Tumor_Seq_Allele2: alternative allele&lt;/li&gt;
+&lt;li&gt;Variant_Classification: variant consequence eg. missense, stop, splice&lt;/li&gt;
+&lt;li&gt;Variant_Type: single nucleotide variant, insertion, deletion&lt;/li&gt;
+&lt;li&gt;Tumor_Sample_Barcode:	Tumor/Patient/Sample name or number&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Optional fields:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

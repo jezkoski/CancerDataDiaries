@@ -9,7 +9,7 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.133.0</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Aug 2024 15:29:55 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/germline/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,8 @@
       <link>http://localhost:1313/posts/germline-variant-classification/</link>
       <pubDate>Sat, 03 Aug 2024 15:29:55 +0900</pubDate>
       <guid>http://localhost:1313/posts/germline-variant-classification/</guid>
-      <description>Germline variant effect interpretation is challenging Assessing the clinical significance of germline variants is an important task in genetics. Identification of pathogenic germline variants may affect the diagnosis and treatment decisions and hence potentially improve and personalize the patient care. In addition, the identification of such heritable risk is important for the family of the patients as they now may be provided genetic counseling and cancer surveillance if they are found to be carriers of the same variant.</description>
+      <description>&lt;h2 id=&#34;germline-variant-effect-interpretation-is-challenging&#34;&gt;Germline variant effect interpretation is challenging&lt;/h2&gt;
+&lt;p&gt;Assessing the clinical significance of germline variants is an important task in genetics. Identification of pathogenic germline variants may affect the diagnosis and treatment decisions and hence potentially improve and personalize the patient care. In addition, the identification of such heritable risk is important for the family of the patients as they now may be provided genetic counseling and cancer surveillance if they are found to be carriers of the same variant.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -9,7 +9,7 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.133.0</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 02 Aug 2024 16:20:16 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/protein/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +18,14 @@
       <link>http://localhost:1313/posts/mutating-protein-sequence/</link>
       <pubDate>Fri, 02 Aug 2024 16:20:16 +0900</pubDate>
       <guid>http://localhost:1313/posts/mutating-protein-sequence/</guid>
-      <description>In silico protein folding Recent improvements in protein folding tools such as AlphaFold2 have dramatically changed protein structure research. In silico predictions have been able to reach comparable accuracy to experimental techniques such as X-ray crystallography and cryo-electron microscopy. These tools may be useful to help filter protein structures for experimental studies.
-Missense mutations Missense mutations are single nucleotide changes in nucleotide sequence that lead to amino acid change in the protein sequence.</description>
+      <description>&lt;h1 id=&#34;in-silico-protein-folding&#34;&gt;&lt;em&gt;In silico&lt;/em&gt; protein folding&lt;/h1&gt;
+&lt;p&gt;Recent improvements in protein &lt;a href=&#34;https://github.com/biolists/folding_tools&#34;&gt;folding tools&lt;/a&gt; such as AlphaFold2
+have dramatically changed protein structure research. &lt;em&gt;In silico&lt;/em&gt; predictions have been able to reach comparable accuracy to experimental techniques such as X-ray crystallography and cryo-electron microscopy.
+These tools may be useful to help filter protein structures for experimental studies.&lt;/p&gt;
+&lt;h1 id=&#34;missense-mutations&#34;&gt;Missense mutations&lt;/h1&gt;
+&lt;p&gt;Missense mutations are single nucleotide changes in nucleotide sequence that lead to amino acid change in the
+protein sequence. All single nucleotide changes don&amp;rsquo;t lead to amino acid change, but may result in synonymous mutation
+(no amino acid change), early stop codon (translation terminates) or a splicing change if located at splicing site.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

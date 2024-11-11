@@ -9,27 +9,61 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.133.0</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Aug 2024 13:43:50 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 11 Nov 2024 15:33:47 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Germline Variants vs Somatic Mutations</title>
+      <link>http://localhost:1313/posts/germline-variants/</link>
+      <pubDate>Mon, 11 Nov 2024 15:33:47 +0200</pubDate>
+      <guid>http://localhost:1313/posts/germline-variants/</guid>
+      <description>&lt;h2 id=&#34;peoples-genomes-differ&#34;&gt;People&amp;rsquo;s Genomes Differ&lt;/h2&gt;
+&lt;p&gt;Person&amp;rsquo;s genome is the complete set of DNA packed in chromosomes that is found in all the cells in their body.
+When looking at the genome, people are far more similar than they are different. On average any two
+people&amp;rsquo;s genomes are ~99.6% identical and thus only about ~0.4% of the DNA is differs.&lt;/p&gt;
+&lt;p&gt;The difference in DNA between individuals or between populations is called genetic variation.
+Changes in DNA sequence of a gene can alter its activity or the function of a resulting protein.
+This effect may introduce different traits in the individual such as hair color or blood type.
+The set of genomic variants an individual carries, among other factors such as diet and environment,
+contributes to their uniqueness.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Oncoplot</title>
       <link>http://localhost:1313/posts/oncoplot/</link>
-      <pubDate>Sun, 11 Aug 2024 13:43:50 +0900</pubDate>
+      <pubDate>Mon, 26 Aug 2024 13:43:50 +0900</pubDate>
       <guid>http://localhost:1313/posts/oncoplot/</guid>
-      <description>Introduction Oncoplots are are visualisation tool used in genomics to present genetic mutations in a set of study samples. They provide an overview of the mutation/variant types and frequencies across all the samples. This allows for easier identification of recurrent and co-occuring mutations.
-Each column in the oncoplot represent a sample or individual, and each row corresponds to a gene. Mutation types are represented with different colors and symbols may be added to indicate extra information on the mutation.</description>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Oncoplots are are visualisation tool used in genomics to present genetic mutations in a set of study samples.
+They provide an overview of the mutation/variant types and frequencies across all the samples.
+This allows for easier identification of recurrent and co-occuring mutations.&lt;/p&gt;
+&lt;p&gt;Each column in the oncoplot represent a sample or individual, and each row corresponds to a gene.
+Mutation types are represented with different colors and symbols may be added to indicate extra information on the mutation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Make Maf for Oncoplot</title>
       <link>http://localhost:1313/posts/make-maf-for-oncoplot/</link>
       <pubDate>Sat, 10 Aug 2024 14:23:30 +0900</pubDate>
       <guid>http://localhost:1313/posts/make-maf-for-oncoplot/</guid>
-      <description>Check all articles in this list.
-MAF files Mutation Annotation Format (MAF) is a data format used to store mutation data. Some visualization tools such as Bioconductor&amp;rsquo;s oncoplot, require the data to be in MAF format.
-MAF files have mandatory and optional fields. Mandatory fields:
-Hugo_Symbol: Gene name (it&amp;rsquo;s Hugo nomenclature name) Chromosome Start_Position End_Position Reference_allele Tumor_Seq_Allele2: alternative allele Variant_Classification: variant consequence eg. missense, stop, splice Variant_Type: single nucleotide variant, insertion, deletion Tumor_Sample_Barcode:	Tumor/Patient/Sample name or number Optional fields:</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/series/bio-visualisation-tools/&#34;&gt;Check all articles in this list&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;maf-files&#34;&gt;MAF files&lt;/h1&gt;
+&lt;p&gt;Mutation Annotation Format (MAF) is a data format used to store mutation data.
+Some visualization tools such as Bioconductor&amp;rsquo;s oncoplot, require the data
+to be in MAF format.&lt;/p&gt;
+&lt;p&gt;MAF files have mandatory and optional fields.
+Mandatory fields:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugo_Symbol: Gene name (it&amp;rsquo;s Hugo nomenclature name)&lt;/li&gt;
+&lt;li&gt;Chromosome&lt;/li&gt;
+&lt;li&gt;Start_Position&lt;/li&gt;
+&lt;li&gt;End_Position&lt;/li&gt;
+&lt;li&gt;Reference_allele&lt;/li&gt;
+&lt;li&gt;Tumor_Seq_Allele2: alternative allele&lt;/li&gt;
+&lt;li&gt;Variant_Classification: variant consequence eg. missense, stop, splice&lt;/li&gt;
+&lt;li&gt;Variant_Type: single nucleotide variant, insertion, deletion&lt;/li&gt;
+&lt;li&gt;Tumor_Sample_Barcode:	Tumor/Patient/Sample name or number&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Optional fields:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lollipop Plots</title>
@@ -50,22 +84,38 @@ Hugo_Symbol: Gene name (it&amp;rsquo;s Hugo nomenclature name) Chromosome Start_
       <link>http://localhost:1313/posts/human-reference-genomes/</link>
       <pubDate>Sat, 03 Aug 2024 15:30:11 +0900</pubDate>
       <guid>http://localhost:1313/posts/human-reference-genomes/</guid>
-      <description>What is a reference genome? A human reference genome, reference assembly, is a sequence of nucleotides representing genes and non-coding regions of the genome. It is made up from a combination multiple individual&amp;rsquo;s DNA and hence not representing a genome of any single human but an average of all humans in the world. However, it is difficult to get proper representation of all humans due to the bias in the selection of participants for the genome sequencing and the great variantion in some parts of the genome between populations.</description>
+      <description>&lt;h2 id=&#34;what-is-a-reference-genome&#34;&gt;What is a reference genome?&lt;/h2&gt;
+&lt;p&gt;A human reference genome, reference assembly, is a sequence of nucleotides representing genes
+and non-coding regions of the genome.
+It is made up from a combination multiple individual&amp;rsquo;s DNA and hence not representing a
+genome of any single human but an average of all humans in the world. However,
+it is difficult to get proper representation of all humans due to the bias in the
+selection of participants for the genome sequencing and the great variantion in some parts
+of the genome between populations.
+The first version was released in 2000 and there have been
+multiple improvements and versions after that.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ACMG-AMP classification for germline variant pathogenicity</title>
       <link>http://localhost:1313/posts/germline-variant-classification/</link>
       <pubDate>Sat, 03 Aug 2024 15:29:55 +0900</pubDate>
       <guid>http://localhost:1313/posts/germline-variant-classification/</guid>
-      <description>Germline variant effect interpretation is challenging Assessing the clinical significance of germline variants is an important task in genetics. Identification of pathogenic germline variants may affect the diagnosis and treatment decisions and hence potentially improve and personalize the patient care. In addition, the identification of such heritable risk is important for the family of the patients as they now may be provided genetic counseling and cancer surveillance if they are found to be carriers of the same variant.</description>
+      <description>&lt;h2 id=&#34;germline-variant-effect-interpretation-is-challenging&#34;&gt;Germline variant effect interpretation is challenging&lt;/h2&gt;
+&lt;p&gt;Assessing the clinical significance of germline variants is an important task in genetics. Identification of pathogenic germline variants may affect the diagnosis and treatment decisions and hence potentially improve and personalize the patient care. In addition, the identification of such heritable risk is important for the family of the patients as they now may be provided genetic counseling and cancer surveillance if they are found to be carriers of the same variant.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Creating mutated protein sequences from a list of amino acid changes</title>
       <link>http://localhost:1313/posts/mutating-protein-sequence/</link>
       <pubDate>Fri, 02 Aug 2024 16:20:16 +0900</pubDate>
       <guid>http://localhost:1313/posts/mutating-protein-sequence/</guid>
-      <description>In silico protein folding Recent improvements in protein folding tools such as AlphaFold2 have dramatically changed protein structure research. In silico predictions have been able to reach comparable accuracy to experimental techniques such as X-ray crystallography and cryo-electron microscopy. These tools may be useful to help filter protein structures for experimental studies.
-Missense mutations Missense mutations are single nucleotide changes in nucleotide sequence that lead to amino acid change in the protein sequence.</description>
+      <description>&lt;h1 id=&#34;in-silico-protein-folding&#34;&gt;&lt;em&gt;In silico&lt;/em&gt; protein folding&lt;/h1&gt;
+&lt;p&gt;Recent improvements in protein &lt;a href=&#34;https://github.com/biolists/folding_tools&#34;&gt;folding tools&lt;/a&gt; such as AlphaFold2
+have dramatically changed protein structure research. &lt;em&gt;In silico&lt;/em&gt; predictions have been able to reach comparable accuracy to experimental techniques such as X-ray crystallography and cryo-electron microscopy.
+These tools may be useful to help filter protein structures for experimental studies.&lt;/p&gt;
+&lt;h1 id=&#34;missense-mutations&#34;&gt;Missense mutations&lt;/h1&gt;
+&lt;p&gt;Missense mutations are single nucleotide changes in nucleotide sequence that lead to amino acid change in the
+protein sequence. All single nucleotide changes don&amp;rsquo;t lead to amino acid change, but may result in synonymous mutation
+(no amino acid change), early stop codon (translation terminates) or a splicing change if located at splicing site.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

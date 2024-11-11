@@ -7,8 +7,14 @@
 <meta name="robots" content="index, follow">
 <title>Creating mutated protein sequences from a list of amino acid changes | Cancer Data Diaries</title>
 <meta name="keywords" content="ensembl, protein">
-<meta name="description" content="In silico protein folding Recent improvements in protein folding tools such as AlphaFold2 have dramatically changed protein structure research. In silico predictions have been able to reach comparable accuracy to experimental techniques such as X-ray crystallography and cryo-electron microscopy. These tools may be useful to help filter protein structures for experimental studies.
-Missense mutations Missense mutations are single nucleotide changes in nucleotide sequence that lead to amino acid change in the protein sequence.">
+<meta name="description" content="In silico protein folding
+Recent improvements in protein folding tools such as AlphaFold2
+have dramatically changed protein structure research. In silico predictions have been able to reach comparable accuracy to experimental techniques such as X-ray crystallography and cryo-electron microscopy.
+These tools may be useful to help filter protein structures for experimental studies.
+Missense mutations
+Missense mutations are single nucleotide changes in nucleotide sequence that lead to amino acid change in the
+protein sequence. All single nucleotide changes don&rsquo;t lead to amino acid change, but may result in synonymous mutation
+(no amino acid change), early stop codon (translation terminates) or a splicing change if located at splicing site.">
 <meta name="author" content="Me">
 <link rel="canonical" href="http://localhost:1313/posts/mutating-protein-sequence/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.b648782d138748285f2b1210a71b68efe4fa23d8cf11526df0b2fb74770c0de8.css" integrity="sha256-tkh4LROHSChfKxIQpxto7&#43;T6I9jPEVJt8LL7dHcMDeg=" rel="preload stylesheet" as="style">
@@ -56,12 +62,15 @@ Missense mutations Missense mutations are single nucleotide changes in nucleotid
         }
 
     </style>
-</noscript>
-  
-
-<meta property="og:title" content="Creating mutated protein sequences from a list of amino acid changes" />
-<meta property="og:description" content="In silico protein folding Recent improvements in protein folding tools such as AlphaFold2 have dramatically changed protein structure research. In silico predictions have been able to reach comparable accuracy to experimental techniques such as X-ray crystallography and cryo-electron microscopy. These tools may be useful to help filter protein structures for experimental studies.
-Missense mutations Missense mutations are single nucleotide changes in nucleotide sequence that lead to amino acid change in the protein sequence." />
+</noscript><meta property="og:title" content="Creating mutated protein sequences from a list of amino acid changes" />
+<meta property="og:description" content="In silico protein folding
+Recent improvements in protein folding tools such as AlphaFold2
+have dramatically changed protein structure research. In silico predictions have been able to reach comparable accuracy to experimental techniques such as X-ray crystallography and cryo-electron microscopy.
+These tools may be useful to help filter protein structures for experimental studies.
+Missense mutations
+Missense mutations are single nucleotide changes in nucleotide sequence that lead to amino acid change in the
+protein sequence. All single nucleotide changes don&rsquo;t lead to amino acid change, but may result in synonymous mutation
+(no amino acid change), early stop codon (translation terminates) or a splicing change if located at splicing site." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/posts/mutating-protein-sequence/" />
 <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E" />
@@ -73,8 +82,14 @@ Missense mutations Missense mutations are single nucleotide changes in nucleotid
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E" />
 <meta name="twitter:title" content="Creating mutated protein sequences from a list of amino acid changes"/>
-<meta name="twitter:description" content="In silico protein folding Recent improvements in protein folding tools such as AlphaFold2 have dramatically changed protein structure research. In silico predictions have been able to reach comparable accuracy to experimental techniques such as X-ray crystallography and cryo-electron microscopy. These tools may be useful to help filter protein structures for experimental studies.
-Missense mutations Missense mutations are single nucleotide changes in nucleotide sequence that lead to amino acid change in the protein sequence."/>
+<meta name="twitter:description" content="In silico protein folding
+Recent improvements in protein folding tools such as AlphaFold2
+have dramatically changed protein structure research. In silico predictions have been able to reach comparable accuracy to experimental techniques such as X-ray crystallography and cryo-electron microscopy.
+These tools may be useful to help filter protein structures for experimental studies.
+Missense mutations
+Missense mutations are single nucleotide changes in nucleotide sequence that lead to amino acid change in the
+protein sequence. All single nucleotide changes don&rsquo;t lead to amino acid change, but may result in synonymous mutation
+(no amino acid change), early stop codon (translation terminates) or a splicing change if located at splicing site."/>
 
 
 <script type="application/ld+json">
@@ -103,7 +118,7 @@ Missense mutations Missense mutations are single nucleotide changes in nucleotid
   "@type": "BlogPosting",
   "headline": "Creating mutated protein sequences from a list of amino acid changes",
   "name": "Creating mutated protein sequences from a list of amino acid changes",
-  "description": "In silico protein folding Recent improvements in protein folding tools such as AlphaFold2 have dramatically changed protein structure research. In silico predictions have been able to reach comparable accuracy to experimental techniques such as X-ray crystallography and cryo-electron microscopy. These tools may be useful to help filter protein structures for experimental studies.\nMissense mutations Missense mutations are single nucleotide changes in nucleotide sequence that lead to amino acid change in the protein sequence.",
+  "description": "In silico protein folding Recent improvements in protein folding tools such as AlphaFold2 have dramatically changed protein structure research. In silico predictions have been able to reach comparable accuracy to experimental techniques such as X-ray crystallography and cryo-electron microscopy. These tools may be useful to help filter protein structures for experimental studies.\nMissense mutations Missense mutations are single nucleotide changes in nucleotide sequence that lead to amino acid change in the protein sequence. All single nucleotide changes don\u0026rsquo;t lead to amino acid change, but may result in synonymous mutation (no amino acid change), early stop codon (translation terminates) or a splicing change if located at splicing site.\n",
   "keywords": [
     "ensembl", "protein"
   ],
@@ -300,19 +315,19 @@ Experimental protocols are expensive and time-consuming and hence there&rsquo;s 
 <h3 id="read-in-data">Read in data<a hidden class="anchor" aria-hidden="true" href="#read-in-data">#</a></h3>
 <p>After the connection is set you read in the data, which is a text file with column &ldquo;Protein_change&rdquo; and one amino acid change of the format A256T per row (All changes for the SAME protein):</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center">Protein_change</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">A356T</td>
-</tr>
-<tr>
-<td style="text-align:center">V14F</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center">Protein_change</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">A356T</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">V14F</td>
+      </tr>
+  </tbody>
 </table>
 <div class="highlight my-class" id="my-codeblock2" height="600"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="k">def</span> <span class="nf">read_data</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
 </span></span><span class="line"><span class="ln"> 2</span><span class="cl">    <span class="k">try</span><span class="p">:</span>
