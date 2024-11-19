@@ -42,7 +42,7 @@ example lead to cancer, when the person acquires pathogenic mutations. Mutations
 affected cells and their daughter cells after division but are not present in any other cells of the body
  and cannot be inherited by the offspring (Figure 1, right side).
 
-{{< figure src="images/germlinevssomatic.ong" title="Figure 1. Created with BioRender." >}}
+{{< figure src="images/germlinevssomatic.png" title="Figure 1. Created with BioRender." >}}
 
 ## The Effects of Germline Variants and Somatic Mutations
 
