@@ -72,8 +72,8 @@ suppressor genes, and how they function in cancer from Dakal et al [1].
 
 Germline variants are far less common in cancers compared to somatic mutations. Cancers caused by germline
 variants are called inherited or hereditary cancers. They often operate via the Knudson's Two Hit -hypothesis:
-1) Person inherits variant on a one allele (of tumor suppressor gene). 2) The second allele is affected
-by a somatic mutation. Inherited variants thus increase the risk/predispose to cancers. One of the maybe the 
+1) Person inherits variant on a one allele (of tumor suppressor gene). 
+2) The second allele is affected by a somatic mutation. Inherited variants thus increase the risk/predispose to cancers. One of the maybe the 
 most known example of hereditary cancers is the BRCA1- and BRCA2-gene associated breast and ovarian cancers [2]. 
 Individuals who have inherited a variant in these genes have a higher risk of developing the cancer themselves
 at some point of their life.
