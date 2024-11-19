@@ -5,31 +5,13 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-11-11T15:33:47+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-11-11T15:33:47+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/genetics/</loc>
-    <lastmod>2024-11-11T15:33:47+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/germline-variant/</loc>
-    <lastmod>2024-11-11T15:33:47+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/germline-variants/</loc>
-    <lastmod>2024-11-11T15:33:47+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/inheritance/</loc>
-    <lastmod>2024-11-11T15:33:47+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-11-11T15:33:47+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/somatic-mutation/</loc>
-    <lastmod>2024-11-11T15:33:47+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-11-11T15:33:47+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/series/bio-visualisation-tools/</loc>
+    <lastmod>2024-08-26T13:43:50+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-08-26T13:43:50+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/maftools/</loc>
@@ -44,6 +26,9 @@
     <loc>http://localhost:1313/series/</loc>
     <lastmod>2024-08-26T13:43:50+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-08-26T13:43:50+09:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/tutorial/</loc>
     <lastmod>2024-08-26T13:43:50+09:00</lastmod>
   </url><url>
@@ -56,11 +41,8 @@
     <loc>http://localhost:1313/tags/variant-annotation/</loc>
     <lastmod>2024-08-10T14:23:30+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/lollipop-plots/</loc>
-    <lastmod>2024-08-03T15:38:54+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/circos-plots/</loc>
-    <lastmod>2024-08-03T15:38:45+09:00</lastmod>
+    <loc>http://localhost:1313/categories/genetics/</loc>
+    <lastmod>2024-08-03T15:30:11+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/human-reference-genomes/</loc>
     <lastmod>2024-08-03T15:30:11+09:00</lastmod>

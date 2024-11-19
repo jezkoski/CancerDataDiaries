@@ -11,23 +11,8 @@
     </image>
     <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Nov 2024 15:33:47 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 03 Aug 2024 15:30:11 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/genetics/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Germline Variants vs Somatic Mutations</title>
-      <link>http://localhost:1313/posts/germline-variants/</link>
-      <pubDate>Mon, 11 Nov 2024 15:33:47 +0200</pubDate>
-      <guid>http://localhost:1313/posts/germline-variants/</guid>
-      <description>&lt;h2 id=&#34;peoples-genomes-differ&#34;&gt;People&amp;rsquo;s Genomes Differ&lt;/h2&gt;
-&lt;p&gt;Person&amp;rsquo;s genome is the complete set of DNA packed in chromosomes that is found in all the cells in their body.
-When looking at the genome, people are far more similar than they are different. On average any two
-people&amp;rsquo;s genomes are ~99.6% identical and thus only about ~0.4% of the DNA is differs.&lt;/p&gt;
-&lt;p&gt;The difference in DNA between individuals or between populations is called genetic variation.
-Changes in DNA sequence of a gene can alter its activity or the function of a resulting protein.
-This effect may introduce different traits in the individual such as hair color or blood type.
-The set of genomic variants an individual carries, among other factors such as diet and environment,
-contributes to their uniqueness.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Human Reference Genomes: GRCh37, GRCh38, hg19, hg38, v37, b37?</title>
       <link>http://localhost:1313/posts/human-reference-genomes/</link>
