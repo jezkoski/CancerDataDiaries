@@ -72,7 +72,7 @@ can start. The original mRNA is used as a template to build complementary DNA th
 the GEM. All the cDNAs can be now sequenced together, because they all contain a cell specific barcode
  and a UMI tag.
 
-{{< figure src="images/GEMS.png" title="Figure 3. Created with BioRender. Workflow figure adapted from 10X Genomics." >}}
+{{< figure src="images/GEMs.png" title="Figure 3. Created with BioRender. Workflow figure adapted from 10X Genomics." >}}
 
 # Challenges and limitations
 
