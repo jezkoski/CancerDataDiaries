@@ -7,7 +7,6 @@ tags = ['single cell', 'R', 'Python', 'scRNA-seq']
 +++
 
 
-# Add gene coordinates to AnnData object
 
 Some downstream analyses such as copy number analysis with inferCNV tool require
  additional information to the AnnData object. In copy number analysis, the gene 
