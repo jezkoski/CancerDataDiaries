@@ -30,10 +30,13 @@ library("biomaRt")
 
 ensembl <- useEnsembl(biomart="genes", dataset="hsapiens_gene_ensembl")
 
+#retrieve all the filters and attributes included in biomart
+# you can look through them and add any other things possibly useful for you
+
 filters <- listFilters(ensembl)
 attribures <- listAttributes(ensembl)
 
-filters <- filters[1:3,]
+# here we're adding only the "ensembl_gene_id"m "chromosome_name", "start_position", and "end_position" from the attributes
 
 bm <- getBM(attributes = c("ensembl_gene_id", "chromosome_name", "start_position", "end_position"), mart=ensembl)
 
