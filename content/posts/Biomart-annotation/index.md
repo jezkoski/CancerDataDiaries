@@ -1,7 +1,7 @@
 +++
 title = 'Add gene coordinates to AnnData object'
 date = 2025-01-28T18:24:06+02:00
-draft = true
+draft = false
 categories = ['tutorial']
 tags = ['single cell', 'R', 'Python', 'scRNA-seq']
 +++
