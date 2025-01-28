@@ -82,7 +82,7 @@ After the annotation, you can find the gene coordinates in
 adata.var[[”chromosome”, “start”, “end”]]. 
 
 For copy number analysis with inferCNV, you have to remove all the “non-standard”
- chromosomes (include only chromosomes 1-23 + XY). In addition, for the tool to work,
+ chromosomes (include only chromosomes 1-22 + XY). In addition, for the tool to work,
  you have to add “chr” to the chromosome name because it’s not included in the biomart
  file.
 
