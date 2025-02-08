@@ -162,7 +162,7 @@ Instead, try to make sure you split the replicates of each group across batches 
 Make sure to keep the batch information for later analysis stage where you can regress out 
 the variation due to batch effect or integrate across batches.
 
-{{< figure src="images/batch_effect_pca.png" title="Figure 7. Image credit: Lexogen [5]." >}}
+{{< figure src="images/batch_effect_pca.png" title="Figure 7. Image credit Hicks et al. [6]." >}}
 
 ## Biological variability across cells/samples
 
